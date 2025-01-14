@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"
+		href="reg-form.css"> 
+    <title>კომპიუტერული მაღაზია</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <p>PC Shop - კომპიუტერული მაღაზია</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">მთავარი</a></li>
+                    <li><a href="about.html">შესახებ</a></li>
+                    <li><a href="reg-form.html">რეგისტრაცია</a></li>
+                    <li><a href="log-form.html">ავტორიზაცია</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="რას ეძებთ?">
+                <button>ძებნა</button>
+            </div>
+        </div>
+    </header>
+<body>
+    <h1>რეგისტრაცია</h1>
+    <form id="registrationForm">
+        <label for="username">მომხმარებლის სახელი:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">ელ. ფოსტა:</label>
+        <input type="email" id="email" name="email" required>
+        <div id="emailError" class="error"></div>
+
+        <label for="mobile">მობილურის ნომერი:</label>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+
+        <label for="city">ქალაქი:</label>
+        <input type="text" id="city" name="city" required>
+
+        <label for="country">ქვეყანა:</label>
+        <input type="text" id="country" name="country" required>
+
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password" required>
+        <div id="strength" class="error"></div>
+
+        <label for="confirmPassword">დაადასტურეთ პაროლი:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <div id="passwordError" class="error"></div>
+
+        <label for="registrationDate">რეგისტრაციის თარიღი:</label>
+        <input type="date" id="registrationDate" name="registrationDate" required>
+
+        <button type="submit">დარეგისტრირება</button>
+    </form>
+
+    <script src="reg-form.js">
+    </script>
+</body>
+</html>
+
+
