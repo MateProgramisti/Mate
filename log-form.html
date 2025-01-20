@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>კომპიუტერული მაღაზია</title>
+    <link rel="stylesheet" href="log-form.css">
+</head>
+<body>
+    <header>
+        <div id="hello" style="background-color: #1e1d1d; position:absolute; top:0; left:0; right:0; height: 40px;">
+			<div class="welcome_text" style="font-size:18px; line-height:20px; margin-top: 10px; margin-left: 20px">
+				<i class="nomeri" aria-hidden="true"></i>&nbsp; <span>&#9990;+995&nbsp;555 123 456</span></a>
+				&nbsp;&nbsp;
+				<i class="maeili" aria-hidden="true"></i>&nbsp; <span>&#128231;mmaghlakelidze@seu.edu.ge</span></a>
+			</div>                    
+		</div>
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><p style="margin-left: 40px;">PC Shop - კომპიუტერული მაღაზია</p></a> 
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">მთავარი</a></li>
+                    <li><a href="about.html">შესახებ</a></li>
+                    <li><a href="reg-form.html">რეგისტრაცია</a></li>
+                    <li><a href="log-form.html">ავტორიზაცია</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="რას ეძებთ?">
+                <button>ძებნა</button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1>შესვლა</h1>
+        <form action="/login" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">შესვლა</button>
+        </form>
+        <div class="link">
+            <p>არ გაქვთ ექაუნთი? <a href="reg-form.html">დარეგისტრირდით აქ</a></p>
+        </div>
+    </div>
+    <footer> 
+		<p>© 15/01/2025 კომპიუტერული მაღაზია
+			 
+		</p> 
+	</footer> 
+</body>
+
+</html>
