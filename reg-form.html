@@ -1,41 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ka">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet"
-		href="reg-form.css"> 
-    <title>კომპიუტერული მაღაზია</title>
+    <title>ანგარიშის რეგისტრაცია - MShop</title>
+    <link rel="stylesheet" href="reg-form.css">
 </head>
 <body>
-    <header>
-        <div id="hello" style="background-color: #1e1d1d; position:absolute; top:0; left:0; right:0; height: 40px;">
-			<div class="welcome_text" style="font-size:18px; line-height:20px; margin-top: 10px; margin-left: 20px">
-				<i class="nomeri" aria-hidden="true"></i>&nbsp; <span>&#9990;+995&nbsp;555 123 456</span></a>
-				&nbsp;&nbsp;
-				<i class="maeili" aria-hidden="true"></i>&nbsp; <span>&#128231;mmaghlakelidze@seu.edu.ge</span></a>
-			</div>                    
-		</div>
-        <div class="navbar">
-            <div class="logo">
-                <a href="index.html"><p style="margin-left: 40px;">PC Shop - კომპიუტერული მაღაზია</p></a> 
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">მთავარი</a></li>
-                    <li><a href="about.html">შესახებ</a></li>
-                    <li><a href="reg-form.html">რეგისტრაცია</a></li>
-                    <li><a href="log-form.html">ავტორიზაცია</a></li>
-                </ul>
-            </nav>
-            <div class="search">
-                <input type="text" placeholder="რას ეძებთ?">
-                <button>ძებნა</button>
-            </div>
+
+<header>
+    <div id="hello" style="background-color: #1e1d1d; height: 40px; position:absolute; top:0; left:0; right:0;">
+        <div class="welcome_text" style="margin-left:20px; font-size:18px; line-height:20px; margin-top:10px;">
+            <i class="nomeri"></i> &#9990;+995 555 123 456
+            &nbsp;&nbsp;
+            <i class="maeili"></i> &#128231; mmaghlakelidze@seu.edu.ge
         </div>
-    </header>
-<body>
-    <h1 class="test">ანგარიშის რეგისტრაცია</h1>
+    </div>
+    <div class="navbar">
+        <div class="logo"><a href="index.php">MShop - მონიტორების მაღაზია</a></div>
+        <nav>
+            <ul>
+                <li><a href="index.php">მთავარი</a></li>
+                <li><a href="about.html">შესახებ</a></li>
+                <li><a href="reg-form.html">რეგისტრაცია</a></li>
+                <li><a href="log-form.html">ავტორიზაცია</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <h1>ანგარიშის რეგისტრაცია</h1>
+
+        <div class="shesvla">
+        <h2>არსებული მომხმარებელი</h2>
+        <p>მე უკვე მაქვს ანგარიში</p>
+        <a href="log-form.html" class="aut">ავტორიზაცია</a>
+    </div>
+
     <form id="registrationForm">
         <label for="username">მომხმარებლის სახელი:</label>
         <input type="text" id="username" name="username" required>
@@ -66,23 +68,12 @@
 
         <button type="submit">გაგრძელება</button>
     </form>
+</main>
 
-    <div class="shesvla">
-          <h2>არსებული მომხბარებელი</h2>
-          <p><strong>მე უკვე მაქვს ანგარიში</strong></p>
-          <p>ანგარიშში შესვლა</p>
-          <a href="log-form.html" class="aut">ავტორიზაცია</a>
-      </div>
+<footer>
+    <p>© 17/01/2026 მონიტორების მაღაზია</p>
+</footer>
 
-    <script src="reg-form.js">
-    </script>
-    	<footer> 
-            <p>© 15/01/2025 კომპიუტერული მაღაზია
-                 
-            </p> 
-        </footer> 
+<script src="reg-form.js"></script>
 </body>
-
 </html>
-
-

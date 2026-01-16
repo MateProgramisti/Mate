@@ -1,7 +1,7 @@
 {
     "en": {
-        "title": "PC Shop",
-        "headerLogoText": "PC Shop - Computer Store",
+        "title": "Mshop",
+        "headerLogoText": "Mshop - Monitor Store",
         "navbar": {
             "home": "Home",
             "about": "About",
@@ -11,16 +11,16 @@
             "searchButton": "Search"
         },
         "products": {
-            "PCsHeading": "Computers",
+            "PCsHeading": "Monitors",
             "quantityLabel": "Quantity:",
             "addToCartButton": "Add to Cart",
             "buyButton": "Buy"
         },
-        "footerText": "© 15/01/2025 Computer Store"
+        "footerText": "© 17/01/2026 Monitor Store"
     },
     "ka": {
-        "title": "კომპიუტერული მაღაზია",
-        "headerLogoText": "PC Shop - კომპიუტერული მაღაზია",
+        "title": "მონიტორების მაღაზია",
+        "headerLogoText": "Mshop - მონიტორების მაღაზია",
         "navbar": {
             "home": "მთავარი",
             "about": "შესახებ",
@@ -30,11 +30,11 @@
             "searchButton": "ძებნა"
         },
         "products": {
-            "PCsHeading": "კომპიუტერები",
+            "PCsHeading": "მონიტორები",
             "quantityLabel": "რაოდენობა:",
             "addToCartButton": "კალათაში დამატება",
             "buyButton": "ყიდვა"
         },
-        "footerText": "© 15/01/2025 კომპიუტერული მაღაზია"
+        "footerText": "© 17/01/2026 მონიტორების მაღაზია"
     }
 }

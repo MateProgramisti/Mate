@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>კომპიუტერული მაღაზია</title>
+    <title>მონიტორების მაღაზია</title>
     <link rel="stylesheet" href="log-form.css">
 </head>
 <body>
@@ -17,11 +17,11 @@
 		</div>
         <div class="navbar">
             <div class="logo">
-                <a href="index.html"><p style="margin-left: 40px;">PC Shop - კომპიუტერული მაღაზია</p></a> 
+                <a href="index.php"><p style="margin-left: 40px;">Mshop - მონიტორების მაღაზია</p></a> 
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">მთავარი</a></li>
+                    <li><a href="index.php">მთავარი</a></li>
                     <li><a href="about.html">შესახებ</a></li>
                     <li><a href="reg-form.html">რეგისტრაცია</a></li>
                     <li><a href="log-form.html">ავტორიზაცია</a></li>
@@ -35,17 +35,18 @@
     </header>
     <div class="container">
         <h1>შესვლა</h1>
-        <form action="/login" method="POST">
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <button type="submit">შესვლა</button>
-        </form>
+<form action="login.php" method="POST" id="loginForm">
+    <input type="text" name="username" placeholder="მომხმარებელი ან ელ. ფოსტა" required>
+    <input type="password" name="password" placeholder="პაროლი" required>
+    <button type="submit">შესვლა</button>
+</form>
+
         <div class="link">
             <p>არ გაქვთ ექაუნთი? <a href="reg-form.html">დარეგისტრირდით აქ</a></p>
         </div>
     </div>
     <footer> 
-		<p>© 15/01/2025 კომპიუტერული მაღაზია
+		<p>© 17/01/2026 მონიტორების მაღაზია
 			 
 		</p> 
 	</footer> 
